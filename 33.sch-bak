@@ -1256,11 +1256,32 @@ Text GLabel 1950 3650 0    50   Input ~ 0
 ROW2
 Text GLabel 1950 3750 0    50   Input ~ 0
 ROW3
-NoConn ~ 3350 3650
-NoConn ~ 3350 3750
 Wire Wire Line
 	3700 2750 3700 2500
 Wire Wire Line
 	3700 2500 3950 2500
 Connection ~ 3950 2500
+NoConn ~ 3350 2650
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5F899C6B
+P 3550 3650
+F 0 "J?" H 3578 3626 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 3578 3535 50  0000 L CNN
+F 2 "" H 3550 3650 50  0001 C CNN
+F 3 "~" H 3550 3650 50  0001 C CNN
+	1    3550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5F89A905
+P 1750 2750
+F 0 "J?" H 1642 2425 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1642 2516 50  0000 C CNN
+F 2 "" H 1750 2750 50  0001 C CNN
+F 3 "~" H 1750 2750 50  0001 C CNN
+	1    1750 2750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
